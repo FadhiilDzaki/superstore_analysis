@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b0cd6273a063401c7d97b9beda60ad2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b0cd6273a063401c7d97b9beda60ad2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b0cd6273a063401c7d97b9beda60ad2 = L.map(
+                "map_2b0cd6273a063401c7d97b9beda60ad2",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b1c940121b40ec9ae87553d5b8d1724 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+            var circle_marker_c5c5f74ce53e85c43c59d1775261529c = L.circleMarker(
+                [33.2588817, -86.8295337],
+                {"bubblingMouseEvents": true, "color": "#a5dcb8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a5dcb8ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_352eca3b35ce785eb9c41dd0a64e68c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61bc0ecbf360c18e0591d1398bd15d95 = $(`<div id="html_61bc0ecbf360c18e0591d1398bd15d95" style="width: 100.0%; height: 100.0%;">State: Alabama<br>Sales: $19510.64<br>Profit: $5786.83</div>`)[0];
+                popup_352eca3b35ce785eb9c41dd0a64e68c6.setContent(html_61bc0ecbf360c18e0591d1398bd15d95);
+            
+        
+
+        circle_marker_c5c5f74ce53e85c43c59d1775261529c.bindPopup(popup_352eca3b35ce785eb9c41dd0a64e68c6)
+        ;
+
+        
+    
+    
+            var circle_marker_6557ea2c8a4ee0a6ac3ec740dfef5c13 = L.circleMarker(
+                [34.395342, -111.763275],
+                {"bubblingMouseEvents": true, "color": "#d1edb3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1edb3ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_85a761aca69cbea36e9c193154641e76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc62cc9c328ec1c88601be9811cb62a = $(`<div id="html_bdc62cc9c328ec1c88601be9811cb62a" style="width: 100.0%; height: 100.0%;">State: Arizona<br>Sales: $35282.0<br>Profit: $-3427.92</div>`)[0];
+                popup_85a761aca69cbea36e9c193154641e76.setContent(html_bdc62cc9c328ec1c88601be9811cb62a);
+            
+        
+
+        circle_marker_6557ea2c8a4ee0a6ac3ec740dfef5c13.bindPopup(popup_85a761aca69cbea36e9c193154641e76)
+        ;
+
+        
+    
+    
+            var circle_marker_2167ebd74aacd775fb3cc876715fa907 = L.circleMarker(
+                [35.2048883, -92.4479108],
+                {"bubblingMouseEvents": true, "color": "#afe0b7ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#afe0b7ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_3e53256a428184c2ad37393388a43986 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb6165adbfa5e51506ae3bdc0e6fe786 = $(`<div id="html_bb6165adbfa5e51506ae3bdc0e6fe786" style="width: 100.0%; height: 100.0%;">State: Arkansas<br>Sales: $11678.13<br>Profit: $4008.69</div>`)[0];
+                popup_3e53256a428184c2ad37393388a43986.setContent(html_bb6165adbfa5e51506ae3bdc0e6fe786);
+            
+        
+
+        circle_marker_2167ebd74aacd775fb3cc876715fa907.bindPopup(popup_3e53256a428184c2ad37393388a43986)
+        ;
+
+        
+    
+    
+            var circle_marker_1595ffad49117f6a31440b05bb5e8324 = L.circleMarker(
+                [36.7014631, -118.755997],
+                {"bubblingMouseEvents": true, "color": "#081d58ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#081d58ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_e4056383487ec751a834eaf3f8ada9b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006c67ac474a9f7484d20051c44c1c50 = $(`<div id="html_006c67ac474a9f7484d20051c44c1c50" style="width: 100.0%; height: 100.0%;">State: California<br>Sales: $457687.63<br>Profit: $76381.39</div>`)[0];
+                popup_e4056383487ec751a834eaf3f8ada9b1.setContent(html_006c67ac474a9f7484d20051c44c1c50);
+            
+        
+
+        circle_marker_1595ffad49117f6a31440b05bb5e8324.bindPopup(popup_e4056383487ec751a834eaf3f8ada9b1)
+        ;
+
+        
+    
+    
+            var circle_marker_31354df795b6208e431e7b1cc48d43a5 = L.circleMarker(
+                [38.7251776, -105.607716],
+                {"bubblingMouseEvents": true, "color": "#daf1b3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#daf1b3ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_50e406d1c20aa9447ea473b06bb6769f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b8ce53af4e510794cc5002d78be5ecf = $(`<div id="html_3b8ce53af4e510794cc5002d78be5ecf" style="width: 100.0%; height: 100.0%;">State: Colorado<br>Sales: $32108.12<br>Profit: $-6527.86</div>`)[0];
+                popup_50e406d1c20aa9447ea473b06bb6769f.setContent(html_3b8ce53af4e510794cc5002d78be5ecf);
+            
+        
+
+        circle_marker_31354df795b6208e431e7b1cc48d43a5.bindPopup(popup_50e406d1c20aa9447ea473b06bb6769f)
+        ;
+
+        
+    
+    
+            var circle_marker_1293c04a5f24eda5eccf71fd08a69817 = L.circleMarker(
+                [41.6500201, -72.7342163],
+                {"bubblingMouseEvents": true, "color": "#b2e1b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2e1b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_c8fb3e23f63a427e4cfeba84fee0781a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53c659b590d7e73749f78c497662026c = $(`<div id="html_53c659b590d7e73749f78c497662026c" style="width: 100.0%; height: 100.0%;">State: Connecticut<br>Sales: $13384.36<br>Profit: $3511.49</div>`)[0];
+                popup_c8fb3e23f63a427e4cfeba84fee0781a.setContent(html_53c659b590d7e73749f78c497662026c);
+            
+        
+
+        circle_marker_1293c04a5f24eda5eccf71fd08a69817.bindPopup(popup_c8fb3e23f63a427e4cfeba84fee0781a)
+        ;
+
+        
+    
+    
+            var circle_marker_30c1db4b0fcf958a8f90d412f2e6c9c3 = L.circleMarker(
+                [38.6920451, -75.4013315],
+                {"bubblingMouseEvents": true, "color": "#8ed3baff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ed3baff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_e94f329a0cba1edc2e063784e36f1f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e595484ce53e3770653101f49586a6b = $(`<div id="html_0e595484ce53e3770653101f49586a6b" style="width: 100.0%; height: 100.0%;">State: Delaware<br>Sales: $27451.07<br>Profit: $9977.37</div>`)[0];
+                popup_e94f329a0cba1edc2e063784e36f1f1a.setContent(html_0e595484ce53e3770653101f49586a6b);
+            
+        
+
+        circle_marker_30c1db4b0fcf958a8f90d412f2e6c9c3.bindPopup(popup_e94f329a0cba1edc2e063784e36f1f1a)
+        ;
+
+        
+    
+    
+            var circle_marker_c784f0fa8c22c993b67a0c4ff56398e8 = L.circleMarker(
+                [38.89384735, -76.98804281910948],
+                {"bubblingMouseEvents": true, "color": "#c0e7b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0e7b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_7907c9e8e2618f3ff2714878492ae3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae96f11a094e92c44c505f61ee39fb4 = $(`<div id="html_dae96f11a094e92c44c505f61ee39fb4" style="width: 100.0%; height: 100.0%;">State: District of Columbia<br>Sales: $2865.02<br>Profit: $1059.59</div>`)[0];
+                popup_7907c9e8e2618f3ff2714878492ae3f6.setContent(html_dae96f11a094e92c44c505f61ee39fb4);
+            
+        
+
+        circle_marker_c784f0fa8c22c993b67a0c4ff56398e8.bindPopup(popup_7907c9e8e2618f3ff2714878492ae3f6)
+        ;
+
+        
+    
+    
+            var circle_marker_9003c5c869afe7dc353fe5fcf66f2f84 = L.circleMarker(
+                [27.7567667, -81.4639835],
+                {"bubblingMouseEvents": true, "color": "#d1edb3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d1edb3ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_6acc5014bd306c37fd8ba0350e91bce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeb355b24191d11749114021f4781026 = $(`<div id="html_aeb355b24191d11749114021f4781026" style="width: 100.0%; height: 100.0%;">State: Florida<br>Sales: $89473.71<br>Profit: $-3399.3</div>`)[0];
+                popup_6acc5014bd306c37fd8ba0350e91bce1.setContent(html_aeb355b24191d11749114021f4781026);
+            
+        
+
+        circle_marker_9003c5c869afe7dc353fe5fcf66f2f84.bindPopup(popup_6acc5014bd306c37fd8ba0350e91bce1)
+        ;
+
+        
+    
+    
+            var circle_marker_51391790c093393a3ab32cdc793df818 = L.circleMarker(
+                [32.3293809, -83.1137366],
+                {"bubblingMouseEvents": true, "color": "#6dc7beff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6dc7beff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_63c6647fceb134185d75acf82638fe00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9abbd1e1cf389441a89323dc951da1ff = $(`<div id="html_9abbd1e1cf389441a89323dc951da1ff" style="width: 100.0%; height: 100.0%;">State: Georgia<br>Sales: $49095.84<br>Profit: $16250.04</div>`)[0];
+                popup_63c6647fceb134185d75acf82638fe00.setContent(html_9abbd1e1cf389441a89323dc951da1ff);
+            
+        
+
+        circle_marker_51391790c093393a3ab32cdc793df818.bindPopup(popup_63c6647fceb134185d75acf82638fe00)
+        ;
+
+        
+    
+    
+            var circle_marker_16dd2335952be4d6c8cd26cfd71ab79e = L.circleMarker(
+                [43.6447642, -114.015407],
+                {"bubblingMouseEvents": true, "color": "#c1e7b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1e7b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_4c532d8b98079af3ac2fbb1685ff5f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4425c4bae622c8fa69f98b9ef8e0910e = $(`<div id="html_4425c4bae622c8fa69f98b9ef8e0910e" style="width: 100.0%; height: 100.0%;">State: Idaho<br>Sales: $4382.49<br>Profit: $826.72</div>`)[0];
+                popup_4c532d8b98079af3ac2fbb1685ff5f02.setContent(html_4425c4bae622c8fa69f98b9ef8e0910e);
+            
+        
+
+        circle_marker_16dd2335952be4d6c8cd26cfd71ab79e.bindPopup(popup_4c532d8b98079af3ac2fbb1685ff5f02)
+        ;
+
+        
+    
+    
+            var circle_marker_fc1a964b7745d9bb1bc76bb146d991ff = L.circleMarker(
+                [40.0796606, -89.4337288],
+                {"bubblingMouseEvents": true, "color": "#ecf8b1ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ecf8b1ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_751d1c2fddf27b3c1b920fcc49deaaf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de2c963aab0632297e510b143bc33865 = $(`<div id="html_de2c963aab0632297e510b143bc33865" style="width: 100.0%; height: 100.0%;">State: Illinois<br>Sales: $80166.1<br>Profit: $-12607.89</div>`)[0];
+                popup_751d1c2fddf27b3c1b920fcc49deaaf7.setContent(html_de2c963aab0632297e510b143bc33865);
+            
+        
+
+        circle_marker_fc1a964b7745d9bb1bc76bb146d991ff.bindPopup(popup_751d1c2fddf27b3c1b920fcc49deaaf7)
+        ;
+
+        
+    
+    
+            var circle_marker_7c2fe1e01b443775b4413e2506bc3655 = L.circleMarker(
+                [40.3270127, -86.1746933],
+                {"bubblingMouseEvents": true, "color": "#63c3bfff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#63c3bfff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_5fec7baa15f341045117b0c8e5069e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f39d98326b7fd0e708b543109aa2c526 = $(`<div id="html_f39d98326b7fd0e708b543109aa2c526" style="width: 100.0%; height: 100.0%;">State: Indiana<br>Sales: $53555.36<br>Profit: $18382.94</div>`)[0];
+                popup_5fec7baa15f341045117b0c8e5069e64.setContent(html_f39d98326b7fd0e708b543109aa2c526);
+            
+        
+
+        circle_marker_7c2fe1e01b443775b4413e2506bc3655.bindPopup(popup_5fec7baa15f341045117b0c8e5069e64)
+        ;
+
+        
+    
+    
+            var circle_marker_7466b39440547865bf80ef07ac505006 = L.circleMarker(
+                [41.9216734, -93.3122705],
+                {"bubblingMouseEvents": true, "color": "#bfe6b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bfe6b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_7d9161c0b33b3a1b2457973755753e05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9bf14208e817e912c2bff90db8fcf4 = $(`<div id="html_6a9bf14208e817e912c2bff90db8fcf4" style="width: 100.0%; height: 100.0%;">State: Iowa<br>Sales: $4579.76<br>Profit: $1183.81</div>`)[0];
+                popup_7d9161c0b33b3a1b2457973755753e05.setContent(html_6a9bf14208e817e912c2bff90db8fcf4);
+            
+        
+
+        circle_marker_7466b39440547865bf80ef07ac505006.bindPopup(popup_7d9161c0b33b3a1b2457973755753e05)
+        ;
+
+        
+    
+    
+            var circle_marker_20e73633ad1120f9e5fb27a615a6aa84 = L.circleMarker(
+                [38.27312, -98.5821872],
+                {"bubblingMouseEvents": true, "color": "#c1e7b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1e7b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_9d0924347c44f1ee841888450e6575f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_047b4653a9c822e7e4c6885c1cc46b54 = $(`<div id="html_047b4653a9c822e7e4c6885c1cc46b54" style="width: 100.0%; height: 100.0%;">State: Kansas<br>Sales: $2914.31<br>Profit: $836.44</div>`)[0];
+                popup_9d0924347c44f1ee841888450e6575f3.setContent(html_047b4653a9c822e7e4c6885c1cc46b54);
+            
+        
+
+        circle_marker_20e73633ad1120f9e5fb27a615a6aa84.bindPopup(popup_9d0924347c44f1ee841888450e6575f3)
+        ;
+
+        
+    
+    
+            var circle_marker_9558fb1fa1eb8ca751c9a676706ee88d = L.circleMarker(
+                [37.5726028, -85.1551411],
+                {"bubblingMouseEvents": true, "color": "#87d0baff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#87d0baff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_5489100388c02f3fbec8ab00c8a40b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b66d95f8fca4040970390fcdccec5dfa = $(`<div id="html_b66d95f8fca4040970390fcdccec5dfa" style="width: 100.0%; height: 100.0%;">State: Kentucky<br>Sales: $36591.75<br>Profit: $11199.7</div>`)[0];
+                popup_5489100388c02f3fbec8ab00c8a40b44.setContent(html_b66d95f8fca4040970390fcdccec5dfa);
+            
+        
+
+        circle_marker_9558fb1fa1eb8ca751c9a676706ee88d.bindPopup(popup_5489100388c02f3fbec8ab00c8a40b44)
+        ;
+
+        
+    
+    
+            var circle_marker_c429801f147adc563d99ac579f588242 = L.circleMarker(
+                [30.8703881, -92.007126],
+                {"bubblingMouseEvents": true, "color": "#bae4b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bae4b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_851c63b372539ea6981ec7ff2335ab3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69424eb92aff48fa8005e5798e6ebd4b = $(`<div id="html_69424eb92aff48fa8005e5798e6ebd4b" style="width: 100.0%; height: 100.0%;">State: Louisiana<br>Sales: $9217.03<br>Profit: $2196.1</div>`)[0];
+                popup_851c63b372539ea6981ec7ff2335ab3d.setContent(html_69424eb92aff48fa8005e5798e6ebd4b);
+            
+        
+
+        circle_marker_c429801f147adc563d99ac579f588242.bindPopup(popup_851c63b372539ea6981ec7ff2335ab3d)
+        ;
+
+        
+    
+    
+            var circle_marker_6c071c1e02b410c9f58def9354fa3a59 = L.circleMarker(
+                [45.709097, -68.8590201],
+                {"bubblingMouseEvents": true, "color": "#c4e8b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c4e8b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_403c11770e64cdb03e4a5b90258540f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b5f1750c763243da7ab1d28e714b84 = $(`<div id="html_33b5f1750c763243da7ab1d28e714b84" style="width: 100.0%; height: 100.0%;">State: Maine<br>Sales: $1270.53<br>Profit: $454.49</div>`)[0];
+                popup_403c11770e64cdb03e4a5b90258540f0.setContent(html_33b5f1750c763243da7ab1d28e714b84);
+            
+        
+
+        circle_marker_6c071c1e02b410c9f58def9354fa3a59.bindPopup(popup_403c11770e64cdb03e4a5b90258540f0)
+        ;
+
+        
+    
+    
+            var circle_marker_05e41d015089278f146b2c2166589ac4 = L.circleMarker(
+                [39.5162401, -76.9382069],
+                {"bubblingMouseEvents": true, "color": "#9ed9b8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ed9b8ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_2fb8f1a3d8bd5616f53005167146df86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bb18061ba8e5ae1b1a3e7fd772e9f6d = $(`<div id="html_1bb18061ba8e5ae1b1a3e7fd772e9f6d" style="width: 100.0%; height: 100.0%;">State: Maryland<br>Sales: $23705.52<br>Profit: $7031.18</div>`)[0];
+                popup_2fb8f1a3d8bd5616f53005167146df86.setContent(html_1bb18061ba8e5ae1b1a3e7fd772e9f6d);
+            
+        
+
+        circle_marker_05e41d015089278f146b2c2166589ac4.bindPopup(popup_2fb8f1a3d8bd5616f53005167146df86)
+        ;
+
+        
+    
+    
+            var circle_marker_8a865faa8a3518415a0b0bf12f846857 = L.circleMarker(
+                [42.3788774, -72.032366],
+                {"bubblingMouseEvents": true, "color": "#a0dab8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0dab8ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_0cc613d155eb7729d54ad3f39c36e34b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a0ac19740dcec76f9ff2fac32238da = $(`<div id="html_a1a0ac19740dcec76f9ff2fac32238da" style="width: 100.0%; height: 100.0%;">State: Massachusetts<br>Sales: $28634.43<br>Profit: $6785.5</div>`)[0];
+                popup_0cc613d155eb7729d54ad3f39c36e34b.setContent(html_a1a0ac19740dcec76f9ff2fac32238da);
+            
+        
+
+        circle_marker_8a865faa8a3518415a0b0bf12f846857.bindPopup(popup_0cc613d155eb7729d54ad3f39c36e34b)
+        ;
+
+        
+    
+    
+            var circle_marker_2bd89c0041d4bb0d03de01c85f7a2081 = L.circleMarker(
+                [43.6211955, -84.6824346],
+                {"bubblingMouseEvents": true, "color": "#45b8c4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45b8c4ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_ebda627c636ecad8321959796838a40a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96991dcbd8d87de7d8e0cf40ca68c5c7 = $(`<div id="html_96991dcbd8d87de7d8e0cf40ca68c5c7" style="width: 100.0%; height: 100.0%;">State: Michigan<br>Sales: $76269.61<br>Profit: $24463.19</div>`)[0];
+                popup_ebda627c636ecad8321959796838a40a.setContent(html_96991dcbd8d87de7d8e0cf40ca68c5c7);
+            
+        
+
+        circle_marker_2bd89c0041d4bb0d03de01c85f7a2081.bindPopup(popup_ebda627c636ecad8321959796838a40a)
+        ;
+
+        
+    
+    
+            var circle_marker_f7428ff509d49821c8cfad18cea14efd = L.circleMarker(
+                [45.9896587, -94.6113288],
+                {"bubblingMouseEvents": true, "color": "#89d1baff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#89d1baff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_974c78b2e23edd664cdced3e02cbd8a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d29d8d813e982d486852898636e20a0 = $(`<div id="html_1d29d8d813e982d486852898636e20a0" style="width: 100.0%; height: 100.0%;">State: Minnesota<br>Sales: $29863.15<br>Profit: $10823.19</div>`)[0];
+                popup_974c78b2e23edd664cdced3e02cbd8a3.setContent(html_1d29d8d813e982d486852898636e20a0);
+            
+        
+
+        circle_marker_f7428ff509d49821c8cfad18cea14efd.bindPopup(popup_974c78b2e23edd664cdced3e02cbd8a3)
+        ;
+
+        
+    
+    
+            var circle_marker_a828d49257ae6114d2efbd26d38fe8b0 = L.circleMarker(
+                [32.9715285, -89.7348497],
+                {"bubblingMouseEvents": true, "color": "#b4e2b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b4e2b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_ed4e8ac4908f724cd41f11041249e6be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85b379852358fbab1c4e9c8a8bb2c0eb = $(`<div id="html_85b379852358fbab1c4e9c8a8bb2c0eb" style="width: 100.0%; height: 100.0%;">State: Mississippi<br>Sales: $10771.34<br>Profit: $3172.98</div>`)[0];
+                popup_ed4e8ac4908f724cd41f11041249e6be.setContent(html_85b379852358fbab1c4e9c8a8bb2c0eb);
+            
+        
+
+        circle_marker_a828d49257ae6114d2efbd26d38fe8b0.bindPopup(popup_ed4e8ac4908f724cd41f11041249e6be)
+        ;
+
+        
+    
+    
+            var circle_marker_0e920f48075e4ae827123aace543797e = L.circleMarker(
+                [38.7604815, -92.5617875],
+                {"bubblingMouseEvents": true, "color": "#a2dbb8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a2dbb8ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_3a5b383c3bf1366d366e49124235d80d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8584143622d826f95b29e349f76c41d = $(`<div id="html_e8584143622d826f95b29e349f76c41d" style="width: 100.0%; height: 100.0%;">State: Missouri<br>Sales: $22205.15<br>Profit: $6436.21</div>`)[0];
+                popup_3a5b383c3bf1366d366e49124235d80d.setContent(html_e8584143622d826f95b29e349f76c41d);
+            
+        
+
+        circle_marker_0e920f48075e4ae827123aace543797e.bindPopup(popup_3a5b383c3bf1366d366e49124235d80d)
+        ;
+
+        
+    
+    
+            var circle_marker_d6d39dfe9dd9d65b9a77eac324136b94 = L.circleMarker(
+                [47.3752671, -109.638757],
+                {"bubblingMouseEvents": true, "color": "#bce5b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bce5b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_69af1b62b2b1484d40dd5e1c96abf330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13690ebc8fc18f26a2844c6c18e64c1b = $(`<div id="html_13690ebc8fc18f26a2844c6c18e64c1b" style="width: 100.0%; height: 100.0%;">State: Montana<br>Sales: $5589.35<br>Profit: $1833.33</div>`)[0];
+                popup_69af1b62b2b1484d40dd5e1c96abf330.setContent(html_13690ebc8fc18f26a2844c6c18e64c1b);
+            
+        
+
+        circle_marker_d6d39dfe9dd9d65b9a77eac324136b94.bindPopup(popup_69af1b62b2b1484d40dd5e1c96abf330)
+        ;
+
+        
+    
+    
+            var circle_marker_121bba17a8d98c3ccc05c5dfc0d3f93e = L.circleMarker(
+                [41.7370229, -99.5873816],
+                {"bubblingMouseEvents": true, "color": "#bbe4b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbe4b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_e2d20d5e38edcc733fab77f0cdadb41a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff74419c5f17707d894a1dc4b8cebfd = $(`<div id="html_dff74419c5f17707d894a1dc4b8cebfd" style="width: 100.0%; height: 100.0%;">State: Nebraska<br>Sales: $7464.93<br>Profit: $2037.09</div>`)[0];
+                popup_e2d20d5e38edcc733fab77f0cdadb41a.setContent(html_dff74419c5f17707d894a1dc4b8cebfd);
+            
+        
+
+        circle_marker_121bba17a8d98c3ccc05c5dfc0d3f93e.bindPopup(popup_e2d20d5e38edcc733fab77f0cdadb41a)
+        ;
+
+        
+    
+    
+            var circle_marker_2630884ac9cedc8304734b8738023d20 = L.circleMarker(
+                [39.5158825, -116.853722],
+                {"bubblingMouseEvents": true, "color": "#b3e2b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3e2b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_be9cc2ea777a92217e052f893ebc5dd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6433a63276f1a8f4647abc8e372cc1f = $(`<div id="html_e6433a63276f1a8f4647abc8e372cc1f" style="width: 100.0%; height: 100.0%;">State: Nevada<br>Sales: $16729.1<br>Profit: $3316.77</div>`)[0];
+                popup_be9cc2ea777a92217e052f893ebc5dd2.setContent(html_e6433a63276f1a8f4647abc8e372cc1f);
+            
+        
+
+        circle_marker_2630884ac9cedc8304734b8738023d20.bindPopup(popup_be9cc2ea777a92217e052f893ebc5dd2)
+        ;
+
+        
+    
+    
+            var circle_marker_a8cc32ec89ea0ed68dfcdab8d4730c6a = L.circleMarker(
+                [43.4849133, -71.6553992],
+                {"bubblingMouseEvents": true, "color": "#bce5b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bce5b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_dd66ceec3e6cdc801fc9a2ba98f98863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df9b726883dda7d09fafe111d2b7b9ad = $(`<div id="html_df9b726883dda7d09fafe111d2b7b9ad" style="width: 100.0%; height: 100.0%;">State: New Hampshire<br>Sales: $7292.52<br>Profit: $1706.5</div>`)[0];
+                popup_dd66ceec3e6cdc801fc9a2ba98f98863.setContent(html_df9b726883dda7d09fafe111d2b7b9ad);
+            
+        
+
+        circle_marker_a8cc32ec89ea0ed68dfcdab8d4730c6a.bindPopup(popup_dd66ceec3e6cdc801fc9a2ba98f98863)
+        ;
+
+        
+    
+    
+            var circle_marker_d0ff833693e5e912d5eaae82d7fcfae5 = L.circleMarker(
+                [40.0757384, -74.4041622],
+                {"bubblingMouseEvents": true, "color": "#8fd3baff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8fd3baff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_a398a1562fc0d257e383ddb0412a72c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cec9ce43cb588b0c15615a57ad6d01f = $(`<div id="html_0cec9ce43cb588b0c15615a57ad6d01f" style="width: 100.0%; height: 100.0%;">State: New Jersey<br>Sales: $35764.31<br>Profit: $9772.91</div>`)[0];
+                popup_a398a1562fc0d257e383ddb0412a72c8.setContent(html_0cec9ce43cb588b0c15615a57ad6d01f);
+            
+        
+
+        circle_marker_d0ff833693e5e912d5eaae82d7fcfae5.bindPopup(popup_a398a1562fc0d257e383ddb0412a72c8)
+        ;
+
+        
+    
+    
+            var circle_marker_3825d3b5289f66b65eecd261879cbd50 = L.circleMarker(
+                [34.5802074, -105.996047],
+                {"bubblingMouseEvents": true, "color": "#c0e6b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c0e6b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_1c2c6e09cc4892c8a5d8edf9cd9423f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adeb7a0f3679de511f85272fb13ebc0b = $(`<div id="html_adeb7a0f3679de511f85272fb13ebc0b" style="width: 100.0%; height: 100.0%;">State: New Mexico<br>Sales: $4783.52<br>Profit: $1157.12</div>`)[0];
+                popup_1c2c6e09cc4892c8a5d8edf9cd9423f7.setContent(html_adeb7a0f3679de511f85272fb13ebc0b);
+            
+        
+
+        circle_marker_3825d3b5289f66b65eecd261879cbd50.bindPopup(popup_1c2c6e09cc4892c8a5d8edf9cd9423f7)
+        ;
+
+        
+    
+    
+            var circle_marker_193a6de559a2f0611671b8adefedc504 = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "#0d2163ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d2163ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_072523ba2d17b6f0dc1ecb080216130e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a7212bb741c168971a681b57ede1977 = $(`<div id="html_2a7212bb741c168971a681b57ede1977" style="width: 100.0%; height: 100.0%;">State: New York<br>Sales: $310876.27<br>Profit: $74038.55</div>`)[0];
+                popup_072523ba2d17b6f0dc1ecb080216130e.setContent(html_2a7212bb741c168971a681b57ede1977);
+            
+        
+
+        circle_marker_193a6de559a2f0611671b8adefedc504.bindPopup(popup_072523ba2d17b6f0dc1ecb080216130e)
+        ;
+
+        
+    
+    
+            var circle_marker_d161b16bd363eba5c0a5d51831ae6490 = L.circleMarker(
+                [35.6729639, -79.0392919],
+                {"bubblingMouseEvents": true, "color": "#ddf2b2ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ddf2b2ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_65fa1b45e29202f834747d8addcc85d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2100e98badd9843b5afa819aa6df93c4 = $(`<div id="html_2100e98badd9843b5afa819aa6df93c4" style="width: 100.0%; height: 100.0%;">State: North Carolina<br>Sales: $55603.16<br>Profit: $-7490.91</div>`)[0];
+                popup_65fa1b45e29202f834747d8addcc85d9.setContent(html_2100e98badd9843b5afa819aa6df93c4);
+            
+        
+
+        circle_marker_d161b16bd363eba5c0a5d51831ae6490.bindPopup(popup_65fa1b45e29202f834747d8addcc85d9)
+        ;
+
+        
+    
+    
+            var circle_marker_cefbd9fca749194b6830ba83a5a89834 = L.circleMarker(
+                [47.6201461, -100.540737],
+                {"bubblingMouseEvents": true, "color": "#c5e8b4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5e8b4ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_5c6e9c4b36842a082c8ff30dc2f81135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26aa28310a1cc017dceb791b64ea2b57 = $(`<div id="html_26aa28310a1cc017dceb791b64ea2b57" style="width: 100.0%; height: 100.0%;">State: North Dakota<br>Sales: $919.91<br>Profit: $230.15</div>`)[0];
+                popup_5c6e9c4b36842a082c8ff30dc2f81135.setContent(html_26aa28310a1cc017dceb791b64ea2b57);
+            
+        
+
+        circle_marker_cefbd9fca749194b6830ba83a5a89834.bindPopup(popup_5c6e9c4b36842a082c8ff30dc2f81135)
+        ;
+
+        
+    
+    
+            var circle_marker_69462d6b2aea327af82c32edc0d296d2 = L.circleMarker(
+                [40.2253569, -82.6881395],
+                {"bubblingMouseEvents": true, "color": "#f3fbbeff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f3fbbeff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_16505fcb0ba3dde9e8e56697c0d9856f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_061a5d9a6406bc3d2dbc7c843c4acdea = $(`<div id="html_061a5d9a6406bc3d2dbc7c843c4acdea" style="width: 100.0%; height: 100.0%;">State: Ohio<br>Sales: $78258.14<br>Profit: $-16971.38</div>`)[0];
+                popup_16505fcb0ba3dde9e8e56697c0d9856f.setContent(html_061a5d9a6406bc3d2dbc7c843c4acdea);
+            
+        
+
+        circle_marker_69462d6b2aea327af82c32edc0d296d2.bindPopup(popup_16505fcb0ba3dde9e8e56697c0d9856f)
+        ;
+
+        
+    
+    
+            var circle_marker_e8a0e3db6d2c02fd21bace242ecfe9ea = L.circleMarker(
+                [34.9550817, -97.2684063],
+                {"bubblingMouseEvents": true, "color": "#abdeb7ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#abdeb7ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_888a083992905027713e81c237d976af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_987be3fc8b15f0e6b85046f09431d825 = $(`<div id="html_987be3fc8b15f0e6b85046f09431d825" style="width: 100.0%; height: 100.0%;">State: Oklahoma<br>Sales: $19683.39<br>Profit: $4853.96</div>`)[0];
+                popup_888a083992905027713e81c237d976af.setContent(html_987be3fc8b15f0e6b85046f09431d825);
+            
+        
+
+        circle_marker_e8a0e3db6d2c02fd21bace242ecfe9ea.bindPopup(popup_888a083992905027713e81c237d976af)
+        ;
+
+        
+    
+    
+            var circle_marker_05df40e50957df12f42111331fcbf3a5 = L.circleMarker(
+                [43.9792797, -120.737257],
+                {"bubblingMouseEvents": true, "color": "#caebb4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#caebb4ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_e46c15a527bd1c7ae426e30be2fea7e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29fce9c10af5fd45a03a60e7a9867eb7 = $(`<div id="html_29fce9c10af5fd45a03a60e7a9867eb7" style="width: 100.0%; height: 100.0%;">State: Oregon<br>Sales: $17431.15<br>Profit: $-1190.47</div>`)[0];
+                popup_e46c15a527bd1c7ae426e30be2fea7e4.setContent(html_29fce9c10af5fd45a03a60e7a9867eb7);
+            
+        
+
+        circle_marker_05df40e50957df12f42111331fcbf3a5.bindPopup(popup_e46c15a527bd1c7ae426e30be2fea7e4)
+        ;
+
+        
+    
+    
+            var circle_marker_83529a190fc6d69f4df9b0f484c72653 = L.circleMarker(
+                [40.9699889, -77.7278831],
+                {"bubblingMouseEvents": true, "color": "#f1fab9ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1fab9ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_3f3f87581bfc94d4c27b43bf34629541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1902fc9da4d9fe65179adbe01409f6f3 = $(`<div id="html_1902fc9da4d9fe65179adbe01409f6f3" style="width: 100.0%; height: 100.0%;">State: Pennsylvania<br>Sales: $116511.91<br>Profit: $-15559.96</div>`)[0];
+                popup_3f3f87581bfc94d4c27b43bf34629541.setContent(html_1902fc9da4d9fe65179adbe01409f6f3);
+            
+        
+
+        circle_marker_83529a190fc6d69f4df9b0f484c72653.bindPopup(popup_3f3f87581bfc94d4c27b43bf34629541)
+        ;
+
+        
+    
+    
+            var circle_marker_a13654c132b4d6083448c3bd7be7f3cd = L.circleMarker(
+                [41.7962409, -71.5992372],
+                {"bubblingMouseEvents": true, "color": "#9dd9b8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9dd9b8ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_172611b3009875acf63bc5ce316d0294 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfeaea7cf96b5d0af807c3ad348d5564 = $(`<div id="html_dfeaea7cf96b5d0af807c3ad348d5564" style="width: 100.0%; height: 100.0%;">State: Rhode Island<br>Sales: $22627.96<br>Profit: $7285.63</div>`)[0];
+                popup_172611b3009875acf63bc5ce316d0294.setContent(html_dfeaea7cf96b5d0af807c3ad348d5564);
+            
+        
+
+        circle_marker_a13654c132b4d6083448c3bd7be7f3cd.bindPopup(popup_172611b3009875acf63bc5ce316d0294)
+        ;
+
+        
+    
+    
+            var circle_marker_8a30c15d43dfca648736dc9f25e0d6b1 = L.circleMarker(
+                [33.6874388, -80.4363743],
+                {"bubblingMouseEvents": true, "color": "#bce5b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bce5b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_adbd058898e67e4d47caa84bd14032ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b901c9a3c739fc9f1e4a31fec87eab70 = $(`<div id="html_b901c9a3c739fc9f1e4a31fec87eab70" style="width: 100.0%; height: 100.0%;">State: South Carolina<br>Sales: $8481.71<br>Profit: $1769.06</div>`)[0];
+                popup_adbd058898e67e4d47caa84bd14032ca.setContent(html_b901c9a3c739fc9f1e4a31fec87eab70);
+            
+        
+
+        circle_marker_8a30c15d43dfca648736dc9f25e0d6b1.bindPopup(popup_adbd058898e67e4d47caa84bd14032ca)
+        ;
+
+        
+    
+    
+            var circle_marker_12fa10531fedb322c5a63d14d770f941 = L.circleMarker(
+                [44.6471761, -100.348761],
+                {"bubblingMouseEvents": true, "color": "#c4e8b5ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c4e8b5ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_f4a3bf94ab389b6018d396937e97aa5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2226071fe397f68693e8b7e10092374d = $(`<div id="html_2226071fe397f68693e8b7e10092374d" style="width: 100.0%; height: 100.0%;">State: South Dakota<br>Sales: $1315.56<br>Profit: $394.83</div>`)[0];
+                popup_f4a3bf94ab389b6018d396937e97aa5e.setContent(html_2226071fe397f68693e8b7e10092374d);
+            
+        
+
+        circle_marker_12fa10531fedb322c5a63d14d770f941.bindPopup(popup_f4a3bf94ab389b6018d396937e97aa5e)
+        ;
+
+        
+    
+    
+            var circle_marker_3478cedf9530a7c85c0dea77dcb16b65 = L.circleMarker(
+                [35.7730076, -86.2820081],
+                {"bubblingMouseEvents": true, "color": "#d7efb3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7efb3ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_ad1f7e7c2983027f22b32737151c8348 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0f27ca704f1b1fdc0abd97b0e077b3 = $(`<div id="html_9a0f27ca704f1b1fdc0abd97b0e077b3" style="width: 100.0%; height: 100.0%;">State: Tennessee<br>Sales: $30661.87<br>Profit: $-5341.69</div>`)[0];
+                popup_ad1f7e7c2983027f22b32737151c8348.setContent(html_9a0f27ca704f1b1fdc0abd97b0e077b3);
+            
+        
+
+        circle_marker_3478cedf9530a7c85c0dea77dcb16b65.bindPopup(popup_ad1f7e7c2983027f22b32737151c8348)
+        ;
+
+        
+    
+    
+            var circle_marker_1d05b21bef9e59ade853e1d93f018dad = L.circleMarker(
+                [31.2638905, -98.5456116],
+                {"bubblingMouseEvents": true, "color": "#ffffd9ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffd9ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_181219d642c80bbcf06cedf2c3ca8608 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71d033859987adabce9ba58864ad7982 = $(`<div id="html_71d033859987adabce9ba58864ad7982" style="width: 100.0%; height: 100.0%;">State: Texas<br>Sales: $170188.05<br>Profit: $-25729.36</div>`)[0];
+                popup_181219d642c80bbcf06cedf2c3ca8608.setContent(html_71d033859987adabce9ba58864ad7982);
+            
+        
+
+        circle_marker_1d05b21bef9e59ade853e1d93f018dad.bindPopup(popup_181219d642c80bbcf06cedf2c3ca8608)
+        ;
+
+        
+    
+    
+            var circle_marker_513aeee87689cf26c4c9e0c6424e68e8 = L.circleMarker(
+                [39.4225192, -111.714358],
+                {"bubblingMouseEvents": true, "color": "#b8e3b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8e3b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_f71802f1c232bef58ef6b8f54553408a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d27fdb5969d9df223b420570c788391 = $(`<div id="html_5d27fdb5969d9df223b420570c788391" style="width: 100.0%; height: 100.0%;">State: Utah<br>Sales: $11220.06<br>Profit: $2546.53</div>`)[0];
+                popup_f71802f1c232bef58ef6b8f54553408a.setContent(html_5d27fdb5969d9df223b420570c788391);
+            
+        
+
+        circle_marker_513aeee87689cf26c4c9e0c6424e68e8.bindPopup(popup_f71802f1c232bef58ef6b8f54553408a)
+        ;
+
+        
+    
+    
+            var circle_marker_d09274d448be9d9697445cb02e559fb0 = L.circleMarker(
+                [44.5990718, -72.5002608],
+                {"bubblingMouseEvents": true, "color": "#b9e4b6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b9e4b6ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_f1545677b6ebde0d2090fb296399161e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c070cfb1fd57b4dbabef1d7002eae53 = $(`<div id="html_1c070cfb1fd57b4dbabef1d7002eae53" style="width: 100.0%; height: 100.0%;">State: Vermont<br>Sales: $8929.37<br>Profit: $2244.98</div>`)[0];
+                popup_f1545677b6ebde0d2090fb296399161e.setContent(html_1c070cfb1fd57b4dbabef1d7002eae53);
+            
+        
+
+        circle_marker_d09274d448be9d9697445cb02e559fb0.bindPopup(popup_f1545677b6ebde0d2090fb296399161e)
+        ;
+
+        
+    
+    
+            var circle_marker_59bdc2b946349ffaf98e1022bdfafb9e = L.circleMarker(
+                [37.1232245, -78.4927721],
+                {"bubblingMouseEvents": true, "color": "#62c2c0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#62c2c0ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_89354f03b3efd68ced0816844b3d48de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e85edf93692ec650635fc5365c734ada = $(`<div id="html_e85edf93692ec650635fc5365c734ada" style="width: 100.0%; height: 100.0%;">State: Virginia<br>Sales: $70636.72<br>Profit: $18597.95</div>`)[0];
+                popup_89354f03b3efd68ced0816844b3d48de.setContent(html_e85edf93692ec650635fc5365c734ada);
+            
+        
+
+        circle_marker_59bdc2b946349ffaf98e1022bdfafb9e.bindPopup(popup_89354f03b3efd68ced0816844b3d48de)
+        ;
+
+        
+    
+    
+            var circle_marker_43bf23a8d931f090ddb536c50986773e = L.circleMarker(
+                [38.8950368, -77.0365427],
+                {"bubblingMouseEvents": true, "color": "#2a9fc2ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a9fc2ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_70d59ff720c6b1be84dd34d66c2e2547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9078edf8bd67c293783fcd1f921e37b8 = $(`<div id="html_9078edf8bd67c293783fcd1f921e37b8" style="width: 100.0%; height: 100.0%;">State: Washington<br>Sales: $138641.27<br>Profit: $33402.65</div>`)[0];
+                popup_70d59ff720c6b1be84dd34d66c2e2547.setContent(html_9078edf8bd67c293783fcd1f921e37b8);
+            
+        
+
+        circle_marker_43bf23a8d931f090ddb536c50986773e.bindPopup(popup_70d59ff720c6b1be84dd34d66c2e2547)
+        ;
+
+        
+    
+    
+            var circle_marker_f74fbfd3a9df715bf46d0aa5204ccb94 = L.circleMarker(
+                [38.4758406, -80.8408415],
+                {"bubblingMouseEvents": true, "color": "#c5e9b4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5e9b4ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_51b9308b655ee62ea8bf7a779e52e9a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c71e5f06a0c48851fbaac328557ae2 = $(`<div id="html_08c71e5f06a0c48851fbaac328557ae2" style="width: 100.0%; height: 100.0%;">State: West Virginia<br>Sales: $1209.82<br>Profit: $185.92</div>`)[0];
+                popup_51b9308b655ee62ea8bf7a779e52e9a2.setContent(html_08c71e5f06a0c48851fbaac328557ae2);
+            
+        
+
+        circle_marker_f74fbfd3a9df715bf46d0aa5204ccb94.bindPopup(popup_51b9308b655ee62ea8bf7a779e52e9a2)
+        ;
+
+        
+    
+    
+            var circle_marker_3487bfef10b8482b8c644272b48f724f = L.circleMarker(
+                [44.4308975, -89.6884637],
+                {"bubblingMouseEvents": true, "color": "#97d6b9ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#97d6b9ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_4de4a2e3879d81f480aeaa6dac445056 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8350b8c08159dbd57192944f7d91f56b = $(`<div id="html_8350b8c08159dbd57192944f7d91f56b" style="width: 100.0%; height: 100.0%;">State: Wisconsin<br>Sales: $32114.61<br>Profit: $8401.8</div>`)[0];
+                popup_4de4a2e3879d81f480aeaa6dac445056.setContent(html_8350b8c08159dbd57192944f7d91f56b);
+            
+        
+
+        circle_marker_3487bfef10b8482b8c644272b48f724f.bindPopup(popup_4de4a2e3879d81f480aeaa6dac445056)
+        ;
+
+        
+    
+    
+            var circle_marker_32c1c97ea4a314d35c6321a1a527038f = L.circleMarker(
+                [43.1700264, -107.568534],
+                {"bubblingMouseEvents": true, "color": "#c6e9b4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c6e9b4ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+        
+    
+        var popup_6669e21ec6d16dc779090322c50c7737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d44140a32faa594c62c267a02f08685 = $(`<div id="html_9d44140a32faa594c62c267a02f08685" style="width: 100.0%; height: 100.0%;">State: Wyoming<br>Sales: $1603.14<br>Profit: $100.2</div>`)[0];
+                popup_6669e21ec6d16dc779090322c50c7737.setContent(html_9d44140a32faa594c62c267a02f08685);
+            
+        
+
+        circle_marker_32c1c97ea4a314d35c6321a1a527038f.bindPopup(popup_6669e21ec6d16dc779090322c50c7737)
+        ;
+
+        
+    
+    
+    var color_map_764b1beebd903e6e84961254c1726439 = {};
+
+    
+    color_map_764b1beebd903e6e84961254c1726439.color = d3.scale.threshold()
+              .domain([-25729.36, -25524.729238476953, -25320.09847695391, -25115.467715430863, -24910.836953907816, -24706.20619238477, -24501.575430861725, -24296.944669338678, -24092.31390781563, -23887.683146292584, -23683.05238476954, -23478.421623246493, -23273.790861723446, -23069.160100200403, -22864.529338677356, -22659.89857715431, -22455.26781563126, -22250.637054108218, -22046.00629258517, -21841.375531062124, -21636.74476953908, -21432.114008016033, -21227.483246492986, -21022.85248496994, -20818.221723446895, -20613.59096192385, -20408.9602004008, -20204.329438877758, -19999.69867735471, -19795.067915831663, -19590.437154308616, -19385.806392785573, -19181.175631262526, -18976.54486973948, -18771.914108216435, -18567.283346693388, -18362.65258517034, -18158.021823647294, -17953.39106212425, -17748.760300601203, -17544.129539078156, -17339.498777555113, -17134.868016032065, -16930.23725450902, -16725.60649298597, -16520.975731462924, -16316.34496993988, -16111.714208416834, -15907.083446893788, -15702.452685370741, -15497.821923847696, -15293.19116232465, -15088.560400801603, -14883.929639278558, -14679.298877755511, -14474.668116232466, -14270.037354709419, -14065.406593186373, -13860.775831663328, -13656.145070140281, -13451.514308617236, -13246.883547094189, -13042.252785571143, -12837.622024048096, -12632.99126252505, -12428.360501002004, -12223.729739478958, -12019.098977955913, -11814.468216432866, -11609.83745490982, -11405.206693386774, -11200.575931863728, -10995.945170340681, -10791.314408817636, -10586.68364729459, -10382.052885771544, -10177.422124248498, -9972.791362725451, -9768.160601202406, -9563.529839679359, -9358.899078156313, -9154.268316633268, -8949.637555110221, -8745.006793587174, -8540.37603206413, -8335.745270541083, -8131.114509018036, -7926.483747494989, -7721.852985971946, -7517.2222244488985, -7312.591462925851, -7107.960701402808, -6903.329939879761, -6698.699178356714, -6494.068416833667, -6289.437655310623, -6084.806893787576, -5880.176132264529, -5675.545370741482, -5470.914609218438, -5266.283847695391, -5061.653086172344, -4857.022324649301, -4652.3915631262535, -4447.760801603206, -4243.130040080159, -4038.4992785571158, -3833.8685170340686, -3629.2377555110215, -3424.606993987978, -3219.976232464931, -3015.345470941884, -2810.7147094188367, -2606.0839478957932, -2401.453186372746, -2196.822424849699, -1992.1916633266555, -1787.5609018036084, -1582.9301402805613, -1378.2993787575142, -1173.6686172344707, -969.0378557114236, -764.4070941883765, -559.776332665333, -355.1455711422859, -150.5148096192388, 54.11595190380831, 258.7467134268518, 463.3774749498989, 668.008236472946, 872.6389979959931, 1077.2697595190366, 1281.9005210420837, 1486.5312825651308, 1691.1620440881743, 1895.7928056112214, 2100.4235671342685, 2305.0543286573156, 2509.685090180359, 2714.315851703406, 2918.9466132264533, 3123.577374749497, 3328.208136272544, 3532.838897795591, 3737.469659318638, 3942.1004208416816, 4146.731182364729, 4351.361943887776, 4555.992705410819, 4760.623466933866, 4965.254228456914, 5169.884989979961, 5374.515751503004, 5579.146513026051, 5783.777274549098, 5988.4080360721455, 6193.038797595189, 6397.669559118236, 6602.300320641283, 6806.931082164327, 7011.561843687374, 7216.192605210417, 7420.823366733464, 7625.4541282565115, 7830.084889779559, 8034.715651302606, 8239.346412825653, 8443.9771743487, 8648.60793587174, 8853.238697394787, 9057.869458917834, 9262.500220440881, 9467.130981963928, 9671.761743486975, 9876.392505010022, 10081.023266533062, 10285.65402805611, 10490.284789579156, 10694.915551102204, 10899.54631262525, 11104.177074148298, 11308.807835671345, 11513.438597194385, 11718.069358717432, 11922.700120240479, 12127.330881763526, 12331.961643286573, 12536.59240480962, 12741.223166332667, 12945.853927855707, 13150.484689378754, 13355.115450901802, 13559.746212424849, 13764.376973947896, 13969.007735470943, 14173.63849699399, 14378.269258517037, 14582.900020040077, 14787.530781563124, 14992.161543086171, 15196.792304609218, 15401.423066132265, 15606.053827655312, 15810.68458917836, 16015.3153507014, 16219.946112224447, 16424.576873747494, 16629.20763527054, 16833.838396793588, 17038.469158316635, 17243.099919839682, 17447.730681362722, 17652.36144288577, 17856.992204408816, 18061.622965931863, 18266.25372745491, 18470.884488977958, 18675.515250501005, 18880.146012024044, 19084.77677354709, 19289.40753507014, 19494.038296593186, 19698.669058116233, 19903.29981963928, 20107.930581162327, 20312.561342685367, 20517.192104208414, 20721.82286573146, 20926.45362725451, 21131.084388777555, 21335.715150300603, 21540.34591182365, 21744.97667334669, 21949.607434869737, 22154.238196392784, 22358.86895791583, 22563.499719438878, 22768.130480961925, 22972.761242484972, 23177.392004008012, 23382.02276553106, 23586.653527054106, 23791.284288577153, 23995.9150501002, 24200.545811623248, 24405.176573146295, 24609.807334669335, 24814.43809619238, 25019.06885771543, 25223.699619238476, 25428.330380761523, 25632.96114228457, 25837.591903807617, 26042.222665330664, 26246.853426853704, 26451.48418837675, 26656.1149498998, 26860.745711422845, 27065.376472945893, 27270.00723446894, 27474.637995991987, 27679.268757515027, 27883.899519038074, 28088.53028056112, 28293.161042084168, 28497.791803607215, 28702.422565130262, 28907.05332665331, 29111.68408817635, 29316.314849699396, 29520.945611222443, 29725.57637274549, 29930.207134268538, 30134.837895791585, 30339.468657314632, 30544.09941883767, 30748.73018036072, 30953.360941883766, 31157.991703406813, 31362.62246492986, 31567.253226452907, 31771.883987975954, 31976.514749498994, 32181.14551102204, 32385.77627254509, 32590.407034068136, 32795.03779559118, 32999.66855711423, 33204.29931863728, 33408.93008016032, 33613.560841683364, 33818.19160320641, 34022.82236472946, 34227.453126252505, 34432.08388777555, 34636.7146492986, 34841.34541082164, 35045.976172344686, 35250.60693386773, 35455.23769539078, 35659.86845691383, 35864.499218436875, 36069.12997995992, 36273.76074148296, 36478.39150300601, 36683.022264529056, 36887.6530260521, 37092.28378757515, 37296.9145490982, 37501.545310621244, 37706.17607214429, 37910.80683366733, 38115.43759519038, 38320.068356713426, 38524.69911823647, 38729.32987975952, 38933.96064128257, 39138.591402805614, 39343.222164328654, 39547.8529258517, 39752.48368737475, 39957.11444889779, 40161.745210420835, 40366.37597194388, 40571.00673346693, 40775.63749498998, 40980.26825651302, 41184.89901803607, 41389.52977955912, 41594.160541082165, 41798.79130260521, 42003.42206412826, 42208.052825651306, 42412.68358717435, 42617.3143486974, 42821.94511022045, 43026.57587174348, 43231.20663326653, 43435.837394789574, 43640.46815631262, 43845.09891783567, 44049.729679358716, 44254.36044088176, 44458.99120240481, 44663.62196392786, 44868.252725450904, 45072.88348697395, 45277.514248497, 45482.145010020045, 45686.77577154309, 45891.406533066125, 46096.03729458917, 46300.66805611222, 46505.29881763527, 46709.92957915831, 46914.56034068136, 47119.19110220441, 47323.821863727455, 47528.4526252505, 47733.08338677355, 47937.714148296596, 48142.34490981964, 48346.97567134269, 48551.60643286574, 48756.23719438877, 48960.86795591182, 49165.498717434864, 49370.12947895791, 49574.76024048096, 49779.391002004006, 49984.02176352705, 50188.6525250501, 50393.28328657315, 50597.914048096194, 50802.54480961924, 51007.17557114229, 51211.806332665336, 51416.43709418838, 51621.067855711415, 51825.69861723446, 52030.32937875751, 52234.96014028056, 52439.5909018036, 52644.22166332665, 52848.8524248497, 53053.483186372745, 53258.11394789579, 53462.74470941884, 53667.375470941886, 53872.00623246493, 54076.63699398798, 54281.26775551103, 54485.898517034075, 54690.52927855711, 54895.160040080154, 55099.7908016032, 55304.42156312625, 55509.052324649296, 55713.68308617234, 55918.31384769539, 56122.94460921844, 56327.575370741484, 56532.20613226453, 56736.83689378758, 56941.467655310626, 57146.09841683367, 57350.72917835672, 57555.35993987975, 57759.9907014028, 57964.62146292585, 58169.252224448894, 58373.88298597194, 58578.51374749499, 58783.144509018035, 58987.77527054108, 59192.40603206413, 59397.03679358718, 59601.66755511022, 59806.29831663327, 60010.92907815632, 60215.559839679365, 60420.1906012024, 60624.821362725444, 60829.45212424849, 61034.08288577154, 61238.713647294586, 61443.34440881763, 61647.97517034068, 61852.60593186373, 62057.236693386774, 62261.86745490982, 62466.49821643287, 62671.128977955916, 62875.75973947896, 63080.39050100201, 63285.02126252504, 63489.65202404809, 63694.28278557114, 63898.913547094184, 64103.54430861723, 64308.17507014028, 64512.805831663325, 64717.43659318637, 64922.06735470942, 65126.69811623247, 65331.32887775551, 65535.95963927856, 65740.59040080161, 65945.22116232465, 66149.8519238477, 66354.48268537073, 66559.11344689378, 66763.74420841683, 66968.37496993988, 67173.00573146292, 67377.63649298597, 67582.26725450902, 67786.89801603206, 67991.52877755511, 68196.15953907816, 68400.7903006012, 68605.42106212425, 68810.0518236473, 69014.68258517035, 69219.31334669338, 69423.94410821643, 69628.57486973947, 69833.20563126252, 70037.83639278557, 70242.46715430862, 70447.09791583166, 70651.72867735471, 70856.35943887776, 71060.9902004008, 71265.62096192385, 71470.2517234469, 71674.88248496994, 71879.51324649299, 72084.14400801602, 72288.77476953907, 72493.40553106212, 72698.03629258517, 72902.66705410821, 73107.29781563126, 73311.92857715431, 73516.55933867735, 73721.1901002004, 73925.82086172345, 74130.4516232465, 74335.08238476954, 74539.71314629259, 74744.34390781564, 74948.97466933867, 75153.60543086172, 75358.23619238476, 75562.86695390781, 75767.49771543086, 75972.1284769539, 76176.75923847695, 76381.39])
+              .range(['#ffffd9ff', '#ffffd9ff', '#ffffd8ff', '#ffffd7ff', '#feffd7ff', '#feffd6ff', '#feffd5ff', '#fdffd5ff', '#fdffd4ff', '#fdfed4ff', '#fdfed3ff', '#fcfed2ff', '#fcfed2ff', '#fcfed1ff', '#fbfed0ff', '#fbfed0ff', '#fbfecfff', '#fbfeceff', '#fafdceff', '#fafdcdff', '#fafdccff', '#f9fdccff', '#f9fdcbff', '#f9fdcbff', '#f9fdcaff', '#f8fdc9ff', '#f8fdc9ff', '#f8fcc8ff', '#f7fcc7ff', '#f7fcc7ff', '#f7fcc6ff', '#f7fcc5ff', '#f6fcc5ff', '#f6fcc4ff', '#f6fcc3ff', '#f5fcc3ff', '#f5fbc2ff', '#f5fbc2ff', '#f4fbc1ff', '#f4fbc0ff', '#f4fbc0ff', '#f4fbbfff', '#f3fbbeff', '#f3fbbeff', '#f3fbbdff', '#f2fabcff', '#f2fabcff', '#f2fabbff', '#f2fabaff', '#f1fabaff', '#f1fab9ff', '#f1fab9ff', '#f0fab8ff', '#f0fab7ff', '#f0f9b7ff', '#f0f9b6ff', '#eff9b5ff', '#eff9b5ff', '#eff9b4ff', '#eef9b3ff', '#eef9b3ff', '#eef9b2ff', '#eef9b1ff', '#edf8b1ff', '#ecf8b1ff', '#ecf8b1ff', '#ebf8b1ff', '#ebf7b1ff', '#eaf7b1ff', '#e9f7b2ff', '#e9f7b2ff', '#e8f6b2ff', '#e8f6b2ff', '#e7f6b2ff', '#e6f6b2ff', '#e6f5b2ff', '#e5f5b2ff', '#e4f5b2ff', '#e4f5b2ff', '#e3f4b2ff', '#e3f4b2ff', '#e2f4b2ff', '#e1f4b2ff', '#e1f3b2ff', '#e0f3b2ff', '#e0f3b2ff', '#dff3b2ff', '#def3b2ff', '#def2b2ff', '#ddf2b2ff', '#ddf2b3ff', '#dcf2b3ff', '#dbf1b3ff', '#dbf1b3ff', '#daf1b3ff', '#d9f1b3ff', '#d9f0b3ff', '#d8f0b3ff', '#d8f0b3ff', '#d7f0b3ff', '#d6efb3ff', '#d6efb3ff', '#d5efb3ff', '#d5efb3ff', '#d4eeb3ff', '#d3eeb3ff', '#d3eeb3ff', '#d2eeb3ff', '#d2edb3ff', '#d1edb3ff', '#d0edb3ff', '#d0edb4ff', '#cfecb4ff', '#ceecb4ff', '#ceecb4ff', '#cdecb4ff', '#cdecb4ff', '#ccebb4ff', '#cbebb4ff', '#cbebb4ff', '#caebb4ff', '#caeab4ff', '#c9eab4ff', '#c8eab4ff', '#c8eab4ff', '#c7e9b4ff', '#c6e9b4ff', '#c5e8b4ff', '#c4e8b5ff', '#c2e7b5ff', '#c1e7b5ff', '#c0e7b5ff', '#bfe6b5ff', '#bee6b5ff', '#bde5b5ff', '#bbe5b5ff', '#bae4b5ff', '#b9e4b6ff', '#b8e3b6ff', '#b7e3b6ff', '#b6e3b6ff', '#b4e2b6ff', '#b3e2b6ff', '#b2e1b6ff', '#b1e1b6ff', '#b0e0b6ff', '#afe0b7ff', '#addfb7ff', '#acdfb7ff', '#abdeb7ff', '#aadeb7ff', '#a9deb7ff', '#a8ddb7ff', '#a7ddb7ff', '#a5dcb8ff', '#a4dcb8ff', '#a3dbb8ff', '#a2dbb8ff', '#a1dab8ff', '#a0dab8ff', '#9edab8ff', '#9dd9b8ff', '#9cd9b8ff', '#9bd8b9ff', '#9ad8b9ff', '#99d7b9ff', '#97d7b9ff', '#96d6b9ff', '#95d6b9ff', '#94d5b9ff', '#93d5b9ff', '#92d5b9ff', '#91d4baff', '#8fd4baff', '#8ed3baff', '#8dd3baff', '#8cd2baff', '#8bd2baff', '#8ad1baff', '#88d1baff', '#87d1baff', '#86d0bbff', '#85d0bbff', '#84cfbbff', '#83cfbbff', '#81cebbff', '#80cebbff', '#7fcdbbff', '#7ecdbbff', '#7dcdbcff', '#7cccbcff', '#7bccbcff', '#7acbbcff', '#79cbbcff', '#78cbbcff', '#77cabcff', '#76cabdff', '#75cabdff', '#74c9bdff', '#73c9bdff', '#72c9bdff', '#71c8bdff', '#70c8bdff', '#6fc7beff', '#6ec7beff', '#6dc7beff', '#6cc6beff', '#6bc6beff', '#6ac6beff', '#69c5beff', '#68c5bfff', '#67c4bfff', '#66c4bfff', '#65c4bfff', '#64c3bfff', '#63c3bfff', '#62c3bfff', '#61c2c0ff', '#60c2c0ff', '#5fc2c0ff', '#5ec1c0ff', '#5dc1c0ff', '#5cc0c0ff', '#5bc0c0ff', '#5ac0c1ff', '#59bfc1ff', '#58bfc1ff', '#57bfc1ff', '#56bec1ff', '#55bec1ff', '#54bdc1ff', '#53bdc2ff', '#52bdc2ff', '#51bcc2ff', '#50bcc2ff', '#4fbcc2ff', '#4ebbc2ff', '#4dbbc2ff', '#4cbac3ff', '#4bbac3ff', '#4abac3ff', '#49b9c3ff', '#48b9c3ff', '#47b9c3ff', '#46b8c3ff', '#45b8c4ff', '#44b8c4ff', '#43b7c4ff', '#42b7c4ff', '#41b6c4ff', '#40b6c4ff', '#40b5c4ff', '#3fb5c4ff', '#3fb4c4ff', '#3eb4c4ff', '#3eb3c4ff', '#3db2c4ff', '#3cb2c4ff', '#3cb1c4ff', '#3bb1c4ff', '#3bb0c4ff', '#3aafc4ff', '#3aafc3ff', '#39aec3ff', '#38aec3ff', '#38adc3ff', '#37acc3ff', '#37acc3ff', '#36abc3ff', '#35abc3ff', '#35aac3ff', '#34a9c3ff', '#34a9c3ff', '#33a8c3ff', '#33a8c3ff', '#32a7c3ff', '#31a6c3ff', '#31a6c2ff', '#30a5c2ff', '#30a5c2ff', '#2fa4c2ff', '#2fa3c2ff', '#2ea3c2ff', '#2da2c2ff', '#2da2c2ff', '#2ca1c2ff', '#2ca0c2ff', '#2ba0c2ff', '#2a9fc2ff', '#2a9fc2ff', '#299ec2ff', '#299dc2ff', '#289dc2ff', '#289cc1ff', '#279cc1ff', '#269bc1ff', '#269bc1ff', '#259ac1ff', '#2599c1ff', '#2499c1ff', '#2398c1ff', '#2398c1ff', '#2297c1ff', '#2296c1ff', '#2196c1ff', '#2195c1ff', '#2095c1ff', '#1f94c1ff', '#1f93c1ff', '#1e93c0ff', '#1e92c0ff', '#1d92c0ff', '#1d91c0ff', '#1d90c0ff', '#1d8fbfff', '#1d8fbfff', '#1d8ebfff', '#1d8dbeff', '#1d8cbeff', '#1d8bbeff', '#1d8abdff', '#1d8abdff', '#1d89bcff', '#1e88bcff', '#1e87bcff', '#1e86bbff', '#1e85bbff', '#1e85baff', '#1e84baff', '#1e83baff', '#1e82b9ff', '#1e81b9ff', '#1e81b8ff', '#1e80b8ff', '#1e7fb8ff', '#1e7eb7ff', '#1f7db7ff', '#1f7cb7ff', '#1f7cb6ff', '#1f7bb6ff', '#1f7ab5ff', '#1f79b5ff', '#1f78b5ff', '#1f78b4ff', '#1f77b4ff', '#1f76b3ff', '#1f75b3ff', '#1f74b3ff', '#2073b2ff', '#2073b2ff', '#2072b2ff', '#2071b1ff', '#2070b1ff', '#206fb0ff', '#206eb0ff', '#206eb0ff', '#206dafff', '#206cafff', '#206baeff', '#206aaeff', '#206aaeff', '#2169adff', '#2168adff', '#2167adff', '#2166acff', '#2165acff', '#2165abff', '#2164abff', '#2163abff', '#2162aaff', '#2161aaff', '#2161a9ff', '#2160a9ff', '#225fa9ff', '#225ea8ff', '#225da8ff', '#225da8ff', '#225ca7ff', '#225ba7ff', '#225ba7ff', '#225aa6ff', '#2259a6ff', '#2259a6ff', '#2258a5ff', '#2257a5ff', '#2257a5ff', '#2256a4ff', '#2255a4ff', '#2255a4ff', '#2254a3ff', '#2253a3ff', '#2253a3ff', '#2252a2ff', '#2351a2ff', '#2351a2ff', '#2350a1ff', '#234fa1ff', '#234ea1ff', '#234ea1ff', '#234da0ff', '#234ca0ff', '#234ca0ff', '#234b9fff', '#234a9fff', '#234a9fff', '#23499eff', '#23489eff', '#23489eff', '#23479dff', '#23469dff', '#23469dff', '#23459cff', '#23449cff', '#24449cff', '#24439bff', '#24429bff', '#24429bff', '#24419aff', '#24409aff', '#24409aff', '#243f99ff', '#243e99ff', '#243e99ff', '#243d98ff', '#243c98ff', '#243c98ff', '#243b98ff', '#243a97ff', '#243a97ff', '#243997ff', '#243896ff', '#243896ff', '#243796ff', '#243695ff', '#253595ff', '#253595ff', '#253494ff', '#243494ff', '#243393ff', '#243392ff', '#233291ff', '#233290ff', '#22328fff', '#22318eff', '#21318dff', '#21318cff', '#20308bff', '#20308aff', '#1f2f89ff', '#1f2f88ff', '#1e2f87ff', '#1e2e86ff', '#1d2e85ff', '#1d2e84ff', '#1d2d83ff', '#1c2d82ff', '#1c2d81ff', '#1b2c80ff', '#1b2c7fff', '#1a2b7eff', '#1a2b7eff', '#192b7dff', '#192a7cff', '#182a7bff', '#182a7aff', '#172979ff', '#172978ff', '#162877ff', '#162876ff', '#162875ff', '#152774ff', '#152773ff', '#142772ff', '#142671ff', '#132670ff', '#13256fff', '#12256eff', '#12256dff', '#11246cff', '#11246bff', '#10246aff', '#102369ff', '#0f2368ff', '#0f2367ff', '#0f2266ff', '#0e2265ff', '#0e2164ff', '#0d2163ff', '#0d2162ff', '#0c2062ff', '#0c2061ff', '#0b2060ff', '#0b1f5fff', '#0a1f5eff', '#0a1e5dff', '#091e5cff', '#091e5bff', '#081d5aff', '#081d59ff', '#081d58ff']);
+    
+
+    color_map_764b1beebd903e6e84961254c1726439.x = d3.scale.linear()
+              .domain([-25729.36, 76381.39])
+              .range([0, 450 - 50]);
+
+    color_map_764b1beebd903e6e84961254c1726439.legend = L.control({position: 'topright'});
+    color_map_764b1beebd903e6e84961254c1726439.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_764b1beebd903e6e84961254c1726439.legend.addTo(map_2b0cd6273a063401c7d97b9beda60ad2);
+
+    color_map_764b1beebd903e6e84961254c1726439.xAxis = d3.svg.axis()
+        .scale(color_map_764b1beebd903e6e84961254c1726439.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([-25729.36, -12965.51625, -201.67250000000058, 12562.17125, 25326.015, 38089.85875, 50853.7025, 63617.54625, 76381.39]);
+
+    color_map_764b1beebd903e6e84961254c1726439.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_764b1beebd903e6e84961254c1726439.g = color_map_764b1beebd903e6e84961254c1726439.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_764b1beebd903e6e84961254c1726439.g.selectAll("rect")
+        .data(color_map_764b1beebd903e6e84961254c1726439.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_764b1beebd903e6e84961254c1726439.x(color_map_764b1beebd903e6e84961254c1726439.color.domain()[i - 1]) : color_map_764b1beebd903e6e84961254c1726439.x.range()[0],
+            x1: i < color_map_764b1beebd903e6e84961254c1726439.color.domain().length ? color_map_764b1beebd903e6e84961254c1726439.x(color_map_764b1beebd903e6e84961254c1726439.color.domain()[i]) : color_map_764b1beebd903e6e84961254c1726439.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_764b1beebd903e6e84961254c1726439.g.call(color_map_764b1beebd903e6e84961254c1726439.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("");
+</script>
+</html>
